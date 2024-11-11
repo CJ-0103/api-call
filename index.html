@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Placedog API Image Viewer</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Dog Image Gallery</h1>
+
+<!-- Image Display Area -->
+<div id="imageContainer" class="image-grid"></div>
+
+<!-- Pagination Controls -->
+<div class="pagination-controls">
+    <button id="prevBtn" onclick="fetchDogImages('prev')">Previous</button>
+    <button id="nextBtn" onclick="fetchDogImages('next')">Next</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
